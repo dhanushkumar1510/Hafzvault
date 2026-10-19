@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "HafzVault",
+    "slug": "hafzvault",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#14532D"
+        }
+      ]
+    ],
+    "android": {
+      "package": "com.hafzvault.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#14532D"
+      }
+    }
+  }
+}
